@@ -2,7 +2,9 @@ The model is implemented using PyTorch deep learning framework and fast.ai libra
 (1) Data pre-processing
 (2) Use the pre-trained weights to create a language model (LM) that can be used for fine-tuning on the given dataset
 (3) Create models such as classifiers and/or regressors using the pre-trained or fine-tuned LM.
+
 Different steps involved in using Fastai’s ULMFiT 
+
 Step 1: Data Pre-processing
 
 First, a “databunch” is created for the given task that can be for a language modeling or a classification/regression problem. The fast.ai provides simple functions to create the respective databunch and automatically performs the pre-processing of text. 
