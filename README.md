@@ -30,9 +30,11 @@ In the first step, a TextClasDataBunch is created using the vocabulary of the pr
 In the second step, a learner “text_classifier_learner” is created for the regression task. It takes the databunch created in the first step as input. The encoder of the pre-trained/fine-tuned model saved in step 2 can be loaded. Then the same procedure can be followed for finding the lr and training the model. 
 
 Pre-trained weights
+
 The data, code and pre-trained weights for training the LM on 1 million SMILES strings is provided at https://github.com/Sunojlab/Transfer_Learning_in_Catalysis
 
 Datasets
+
 The dataset used for generation and regression is provided in the ‘Data’ folder. 
 1.	‘alcohol-smiles.csv’ contains the SMILES of 37 training set alcohols used for LM fine-tuning and generation
 2.	‘740-reactions-yield.csv’ contains the SMILES of previously reported 740 deoxyfluorination reactions used for regressor fine-tuning
@@ -47,6 +49,7 @@ All the codes are provided as notebooks that can be directly run on Google Colab
 3.	The notebook for fine-tuning the regressor for yield prediction is ‘Fine-tuning of regressor’
 
 References
+
 •	https://doi.org/10.3390/info11020108
 •	https://github.com/XinhaoLi74/MolPMoFiT
 •	https://github.com/marcossantanaioc/De_novo_design_SARSCOV2
